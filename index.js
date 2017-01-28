@@ -21,7 +21,7 @@ var device = awsIot.device({
 
 device.on('connect', function() {
     console.log('connected');
-    device.publish(config.topic, JSON.stringify({ temperature: temperature, sensor: config.sensorname }), err=>{
+    device.publish(config.topic, JSON.stringify({ temperature: temperature, temperature_sensor: config.sensorName }), err=>{
         if(err) {
             console.error("Failed to publish message: " +err);
         } else {
