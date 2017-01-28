@@ -1,0 +1,30 @@
+{
+  "name": "temperature-iot",
+  "version": "1.0.0",
+  "description": "Publish temperature readings to AWS IoT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drweaver/temperature-iot.git"
+  },
+  "keywords": [
+    "temperature",
+    "iot",
+    "aws",
+    "heating"
+  ],
+  "author": "Shane Weaver",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/drweaver/temperature-iot/issues"
+  },
+  "homepage": "https://github.com/drweaver/temperature-iot#readme",
+  "dependencies" :
+  { "yargs" : "^6.6.0"
+  , "aws-iot-device-sdk" : "^1.0.14"
+  }
+}
