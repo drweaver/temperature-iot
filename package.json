@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/drweaver/temperature-iot#readme",
   "dependencies" :
-  { "yargs" : "^6.6.0"
-  , "aws-iot-device-sdk" : "^1.0.14"
+  { 
+    "aws-iot-device-sdk" : "^1.0.14"
   }
 }
