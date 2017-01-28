@@ -2,5 +2,5 @@
     "clientID": "<unique-uuid>",
     "region": "<aws-region>",
     "topic": "heatingcontrol.temperature.event",
-    "sensorname": "<example: lounge, bedroom, etc>"
+    "sensorName": "<example: lounge, bedroom, etc>"
 }
